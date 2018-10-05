@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/ACCM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accueil"
+        android:visibility="visible"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/holo_red_light"
+
+        android:layout_below="@+id/imageView4"
+        android:layout_alignLeft="@+id/PRE"
+        android:layout_alignStart="@+id/PRE" />
+
+    <Button
+        android:id="@+id/ACT"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Activités"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/holo_red_light"
+
+        android:layout_below="@+id/PRE"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/amgelogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/PRE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="     PRESENTATION"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/ACCM"
+        android:layout_alignRight="@+id/ACT"
+        android:layout_alignEnd="@+id/ACT" />
+
+    <Button
+        android:id="@+id/CON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="CONTACT"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/ACT"
+        android:layout_alignLeft="@+id/PRE"
+        android:layout_alignStart="@+id/PRE" />
+
+    <Button
+        android:id="@+id/REG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CON"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="21dp"
+        android:layout_toRightOf="@+id/PRE"
+        android:background="@android:color/transparent"
+        android:text="REJOIGNEZ NOUS !"
+        android:textColor="@android:color/holo_blue_light" />
+
+</RelativeLayout>

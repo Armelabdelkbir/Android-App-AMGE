@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_2_sept_aid_lekbir"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/AID"
+        android:layout_toRightOf="@+id/POT"
+        android:layout_toEndOf="@+id/POT" />
+
+    <ImageButton
+        android:id="@+id/AID"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/aidlkbir"
+        android:contentDescription="@string/_2_sept_aid_lekbir"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_14_sept_presentation_universitaires"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/PRES"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/PRES"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/p2"
+        android:contentDescription="@string/_14_sept_presentation_universitaires"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/POT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/potadmis"
+        android:contentDescription="@string/_19_aout_pot_des_admis_toulouse"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_19_aout_pot_des_admis_toulouse"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/POT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+
+    <Button
+        android:id="@+id/PLUS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:text="Suivant"
+        android:textColor="@android:color/holo_blue_light" />
+    <Button
+        android:id="@+id/Prec1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/PLUS1"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:background="@android:color/transparent"
+        android:text="précédent"
+        android:textColor="@android:color/holo_blue_light" />
+</RelativeLayout>

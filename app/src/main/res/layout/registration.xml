@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <ImageView
+        android:layout_width="315.33dp"
+        android:layout_height="185dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18.0dp"
+        android:background="@drawable/logo"
+        android:id="@+id/imageView2" />
+    <EditText
+        android:id="@+id/user2"
+        android:paddingLeft="50dp"
+        android:hint="identifiant"
+        android:textColorHint="#ffffff"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="312.00dp"
+        android:layout_height="57.33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/username"/>
+    <EditText
+        android:id="@+id/email2"
+        android:paddingLeft="50dp"
+        android:hint="email"
+        android:textColorHint="#ffffff"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="312.00dp"
+        android:layout_height="57.33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="292dp"
+        android:background="@drawable/email"/>
+    <EditText
+        android:id="@+id/mdp2"
+        android:paddingLeft="50dp"
+        android:hint="mot de passe"
+        android:textColorHint="#ffffff"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="312.00dp"
+        android:layout_height="57.33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="354dp"
+        android:background="@drawable/password"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/tel"
+        android:paddingLeft="50dp"
+        android:hint="numero de telephone"
+        android:textColorHint="#ffffff"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="312.00dp"
+        android:layout_height="57.33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="416dp"
+        android:background="@drawable/mobile"/>
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="312dp"
+        android:layout_height="57dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/sign_in"
+        android:onClick="OnReg"/>
+
+
+</RelativeLayout>

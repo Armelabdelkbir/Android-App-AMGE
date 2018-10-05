@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/ACCM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accueil"
+        android:visibility="visible"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/holo_red_light"
+
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/PREM"
+        android:layout_alignEnd="@+id/PREM"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp" />
+
+    <Button
+        android:id="@+id/ACTM"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Activités"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/holo_red_light"
+
+        android:layout_below="@+id/PREM"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView4M"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/amgelogo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/ACCM" />
+
+    <Button
+        android:id="@+id/PREM"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="PRESENTATION"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/ACCM"
+        android:layout_alignRight="@+id/ACTM"
+        android:layout_alignEnd="@+id/ACTM"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp" />
+
+    <Button
+        android:id="@+id/CONM"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="CONTACT"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/PHOTO"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/PHOTO"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/transparent"
+        android:text="PHOTOS"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/ACTM"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
